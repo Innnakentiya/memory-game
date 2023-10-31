@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory Game</title>
+</head>
+
+<body>
+    <div class="game__container">
+        <div class="game__overlay"></div>
+        <div class="game__shape"></div>
+
+        <header class="game__header">
+            <h1 class="game__header_title">Memory Game</h1>
+        </header>
+
+        <main>
+            <section class="game__section">
+                <div class="game__body-container">
+                    <div class="game__card" data-image="bird">
+                        <img class="card__front-face" src="images/bird.jpg" alt="bird">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="bird">
+                        <img class="card__front-face" src="images/bird.jpg" alt="bird">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="frog">
+                        <img class="card__front-face" src="images/frog.jpg" alt="frog">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="frog">
+                        <img class="card__front-face" src="images/frog.jpg" alt="frog">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="giraffe">
+                        <img class="card__front-face" src="images/giraffe.jpg" alt="giraffe">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="giraffe">
+                        <img class="card__front-face" src="images/giraffe.jpg" alt="giraffe">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="parrot">
+                        <img class="card__front-face" src="images/parrot.jpg" alt="parrot">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="parrot">
+                        <img class="card__front-face" src="images/parrot.jpg" alt="parrot">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="tiger">
+                        <img class="card__front-face" src="images/tiger.jpg" alt="tiger">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="tiger">
+                        <img class="card__front-face" src="images/tiger.jpg" alt="tiger">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="toucan">
+                        <img class="card__front-face" src="images/toucan.jpg" alt="toucan">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="toucan">
+                        <img class="card__front-face" src="images/toucan.jpg" alt="toucan">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="leopard">
+                        <img class="card__front-face" src="images/leopard.jpg" alt="leopard">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="leopard">
+                        <img class="card__front-face" src="images/leopard.jpg" alt="leopard">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="turtle">
+                        <img class="card__front-face" src="images/turtle.jpg" alt="turtle">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="turtle">
+                        <img class="card__front-face" src="images/turtle.jpg" alt="turtle">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="zebra">
+                        <img class="card__front-face" src="images/zebra.jpg" alt="zebra">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="zebra">
+                        <img class="card__front-face" src="images/zebra.jpg" alt="zebra">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="squirrel">
+                        <img class="card__front-face" src="images/squirrel.jpg" alt="squirrel">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="squirrel">
+                        <img class="card__front-face" src="images/squirrel.jpg" alt="squirrel">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="panda">
+                        <img class="card__front-face" src="images/panda.jpg" alt="panda">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="panda">
+                        <img class="card__front-face" src="images/panda.jpg" alt="panda">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="elephant">
+                        <img class="card__front-face" src="images/elephant.jpg" alt="elephant">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card" data-image="elephant">
+                        <img class="card__front-face" src="images/elephant.jpg" alt="elephant">
+                        <img class="card__back-face" src="images/mark.jpg" alt="question-mark">
+                    </div>
+                    <div class="game__card game__bottom-card">
+                        <div class="card__content-info">
+                            <p>Find a pair</p>
+                        </div>
+                        <div class="opened__cards-number">
+                            <p></p>
+                        </div>
+                        <div class="game__timer">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game__modal-window">
+                    <h2 class="game__scores">High Scores</h2>
+                    <div class="game__data">
+                        <div class="game__rank">
+                            <p>1st</p>
+                            <p>2nd</p>
+                            <p>3rd</p>
+                            <p>4th</p>
+                            <p>5th</p>
+                            <p>6th</p>
+                            <p>7th</p>
+                            <p>8th</p>
+                            <p>9th</p>
+                            <p>10th</p>
+                        </div>
+                        <div class="game__moves">
+                            <p>moves</p>
+                            <p>moves</p>
+                            <p>moves</p>
+                            <p>moves</p>
+                            <p>moves</p>
+                            <p>moves</p>
+                            <p>moves</p>
+                            <p>moves</p>
+                            <p>moves</p>
+                            <p>moves</p>
+                        </div>
+                        <div class="game__time">
+                            <p>sec</p>
+                            <p>sec</p>
+                            <p>sec</p>
+                            <p>sec</p>
+                            <p>sec</p>
+                            <p>sec</p>
+                            <p>sec</p>
+                            <p>sec</p>
+                            <p>sec</p>
+                            <p>sec</p>
+                        </div>
+                    </div>
+                    <div class="game__modal_close">
+                        <span class="close__line first-line"></span>
+                        <span class="close__line second-line"></span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="game__footer">
+            <div class="game__footer_git">
+                <a href="https://github.com/Innnakentiya" target="_blank">
+                    <img src="images/git.png" alt="git-logo"></a>
+            </div>
+            <div class="game__footer-text">
+                <p>2023</p>
+            </div>
+            <div class="game__footer_rss">
+                <a href="https://rs.school/js-stage0/" target="_blank">
+                    <img src="images/rs_school_js.svg" alt="rss-logo">
+                </a>
+            </div>
+        </footer>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
